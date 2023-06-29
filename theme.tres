@@ -1,0 +1,28 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://ccbojpp7h4kl0"]
+
+[ext_resource type="FontFile" uid="uid://d2xbi2ixqnu2f" path="res://arial.ttf" id="1_irlma"]
+
+[resource]
+BoxContainer/constants/separation = 30
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_disabled_color = Color(1, 0, 0, 1)
+Button/colors/font_hover_color = Color(0, 0, 1, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 0, 1)
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(0, 1, 0, 1)
+Button/colors/icon_disabled_color = Color(1, 0, 0, 1)
+Button/constants/outline_size = 10
+Button/font_sizes/font_size = 20
+Button/fonts/font = ExtResource("1_irlma")
+Label/colors/font_color = Color(0, 0, 0, 1)
+Label/colors/font_outline_color = Color(1, 1, 1, 1)
+Label/constants/outline_size = 10
+Label/font_sizes/font_size = 20
+Label/fonts/font = ExtResource("1_irlma")
+TabContainer/colors/font_disabled_color = Color(1, 0, 0, 1)
+TabContainer/colors/font_outline_color = Color(1, 1, 1, 1)
+TabContainer/colors/font_selected_color = Color(0, 0, 1, 1)
+TabContainer/colors/font_unselected_color = Color(0, 0, 0, 1)
+TabContainer/constants/outline_size = 10
+TabContainer/font_sizes/font_size = 20
+TabContainer/fonts/font = ExtResource("1_irlma")

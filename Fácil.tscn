@@ -1,0 +1,254 @@
+[gd_scene load_steps=2 format=3 uid="uid://cu7hxlpjkoauj"]
+
+[ext_resource type="Theme" path="res://theme.tres" id="1_nssd2"]
+
+[node name="Fácil" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_nssd2")
+
+[node name="SpinBox" type="SpinBox" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -168.5
+offset_right = 168.5
+offset_bottom = 31.0
+grow_horizontal = 2
+max_value = 205000.0
+step = 5.0
+alignment = 1
+editable = false
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 65.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BoxContainer" type="BoxContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+vertical = true
+
+[node name="BoxContainer1" type="BoxContainer" parent="ColorRect/BoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Button1" type="Button" parent="ColorRect/BoxContainer/BoxContainer1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button2" type="Button" parent="ColorRect/BoxContainer/BoxContainer1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button3" type="Button" parent="ColorRect/BoxContainer/BoxContainer1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button4" type="Button" parent="ColorRect/BoxContainer/BoxContainer1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button5" type="Button" parent="ColorRect/BoxContainer/BoxContainer1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button6" type="Button" parent="ColorRect/BoxContainer/BoxContainer1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button7" type="Button" parent="ColorRect/BoxContainer/BoxContainer1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button8" type="Button" parent="ColorRect/BoxContainer/BoxContainer1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button9" type="Button" parent="ColorRect/BoxContainer/BoxContainer1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BoxContainer2" type="BoxContainer" parent="ColorRect/BoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Button1" type="Button" parent="ColorRect/BoxContainer/BoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button2" type="Button" parent="ColorRect/BoxContainer/BoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button3" type="Button" parent="ColorRect/BoxContainer/BoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button4" type="Button" parent="ColorRect/BoxContainer/BoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button5" type="Button" parent="ColorRect/BoxContainer/BoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button6" type="Button" parent="ColorRect/BoxContainer/BoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button7" type="Button" parent="ColorRect/BoxContainer/BoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button8" type="Button" parent="ColorRect/BoxContainer/BoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button9" type="Button" parent="ColorRect/BoxContainer/BoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BoxContainer3" type="BoxContainer" parent="ColorRect/BoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Button1" type="Button" parent="ColorRect/BoxContainer/BoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button2" type="Button" parent="ColorRect/BoxContainer/BoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button3" type="Button" parent="ColorRect/BoxContainer/BoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button4" type="Button" parent="ColorRect/BoxContainer/BoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button5" type="Button" parent="ColorRect/BoxContainer/BoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button6" type="Button" parent="ColorRect/BoxContainer/BoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button7" type="Button" parent="ColorRect/BoxContainer/BoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button8" type="Button" parent="ColorRect/BoxContainer/BoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button9" type="Button" parent="ColorRect/BoxContainer/BoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BoxContainer4" type="BoxContainer" parent="ColorRect/BoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Button1" type="Button" parent="ColorRect/BoxContainer/BoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button2" type="Button" parent="ColorRect/BoxContainer/BoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button3" type="Button" parent="ColorRect/BoxContainer/BoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button4" type="Button" parent="ColorRect/BoxContainer/BoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button5" type="Button" parent="ColorRect/BoxContainer/BoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button6" type="Button" parent="ColorRect/BoxContainer/BoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button7" type="Button" parent="ColorRect/BoxContainer/BoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button8" type="Button" parent="ColorRect/BoxContainer/BoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button9" type="Button" parent="ColorRect/BoxContainer/BoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BoxContainer5" type="BoxContainer" parent="ColorRect/BoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Button1" type="Button" parent="ColorRect/BoxContainer/BoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button2" type="Button" parent="ColorRect/BoxContainer/BoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button3" type="Button" parent="ColorRect/BoxContainer/BoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button4" type="Button" parent="ColorRect/BoxContainer/BoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button5" type="Button" parent="ColorRect/BoxContainer/BoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button6" type="Button" parent="ColorRect/BoxContainer/BoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button7" type="Button" parent="ColorRect/BoxContainer/BoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button8" type="Button" parent="ColorRect/BoxContainer/BoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button9" type="Button" parent="ColorRect/BoxContainer/BoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
